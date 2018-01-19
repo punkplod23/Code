@@ -13,7 +13,7 @@
 - Open up terminal (Ctrl+Alt+t)
   - sudo pip install python-tk
   - sudo apt-get install python3-tk
-- Congratulations you have install Tkinter
+- Congratulations you have installed Tkinter
 
 # Lets create a tkinter window.
 1. Open up your python Editor (Idle 3) 
