@@ -170,8 +170,12 @@ class Demo(Frame):
 
 
     def displayResults(self):
+        self.pack_forget()
+        self.grid_forget()
         tk.Frame.__init__(self, width=self.window_frame_width, height=self.window_frame_height,background=self.window_frame_color)
-        self.master.title(self.window_name)
+        self.master.title("Results Window")
+        self.name_labels = Label(self, text="name").grid(row=0)
+        self.name_inputs = Label(self, text=self.name_input.get()).grid(row=0,column=2)
         self.invokeWindow()
 
     def invokeWindow(self):
@@ -222,7 +226,9 @@ Demo()
                     self.my_text_input = StringVar()
                     Entry(self, textvariable=self.my_text_input).grid(row=row, column=1,sticky='we')
         ```
-     - Challenge add some new feilds in
+     - Challenge 
+       - add some new inputs in
+       - Finish the display view
     
 Next week
 Mysql and data storage with Python
