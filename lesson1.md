@@ -198,7 +198,12 @@ Demo()
     self.master.title("Test Program")```
     
 7. Lets add some More Feilds
-  - 
+  - Lets look at this code
+    -  ```python
+        self.name_label = Label(self, text="Name").grid(row=0,sticky='we')
+        self.name_input = StringVar()
+        Entry(self, textvariable=self.name_input,width=int(self.window_frame_width*0.10)).grid(row=0, column=1,sticky='we')
+    ```
 
 
   
