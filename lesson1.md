@@ -200,11 +200,29 @@ Demo()
 7. Lets add some More Feilds
   - Lets look at this code
     -  ```python
-        self.name_label = Label(self, text="Name").grid(row=0,sticky='we')
-        self.name_input = StringVar()
-        Entry(self, textvariable=self.name_input,width=int(self.window_frame_width*0.10)).grid(row=0, column=1,sticky='we')
+        # Quote I Like
+        self.quote_i_like_label = Label(self, text="Quote I Like").grid(row=3,sticky='we')
+        self.quote_i_like_input = StringVar()
+        Entry(self, textvariable=self.quote_i_like_input).grid(row=3, column=1,sticky='we')
     ```
-
+   - name_label and name_input are just variables that just link to method in tkinter
+   - Entry is just a widget to help display text
+   - row=3 is important its an index of the row number
+     - look through the code what is the final number?
+   - Example of creating a new feild
+     - After this code
+        ```python
+                   row = self.createAddressFeilds(4)
+        ```
+     - Add in a new set of feilds like this
+       ```python
+                   row = row+1
+                    # My Text Feild
+                    self.my_text_label = Label(self, text="Quote I Like").grid(row=row,sticky='we')
+                    self.my_text_input = StringVar()
+                    Entry(self, textvariable=self.my_text_input).grid(row=row, column=1,sticky='we')
+        ```
+      
 
   
 
