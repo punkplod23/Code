@@ -185,6 +185,16 @@ class Demo(Frame):
 Demo()
 ```
 
+6. OK lets go through some class basics from the code above now?
+  - self. refers to anything in the class.
+  - in this case we are loading the whole of tkinter library into the class
+  - inside the class we have this variable window_name 
+    - Change this re-run the python script.
+  - In the createWindow Method
+    - When a function (def) in python lives inside a class we call it a method rather than a function.
+    - ON this line ```python self.master.title(self.window_name)```
+    - Replace the self.window_name with a string like this ```python self.master.title("Test Program")```
+
 
   
 
