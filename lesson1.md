@@ -192,8 +192,10 @@ Demo()
     - Change this re-run the python script.
   - In the createWindow Method
     - When a function (def) in python lives inside a class we call it a method rather than a function.
-    - ON this line ```python self.master.title(self.window_name)```
-    - Replace the self.window_name with a string like this ```python self.master.title("Test Program")```
+    - ON this line ``` 
+    self.master.title(self.window_name)```
+    - Replace the self.window_name with a string like this ``` 
+    self.master.title("Test Program")```
     
 7. Lets add some More Feilds
   - 
