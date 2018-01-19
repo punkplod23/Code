@@ -222,6 +222,13 @@ Demo()
                     self.my_text_input = StringVar()
                     Entry(self, textvariable=self.my_text_input).grid(row=row, column=1,sticky='we')
         ```
+     - Challenge add some new feilds in
+    
+Next week
+Mysql and data storage with Python
+
+Week after putting it all together
+
       
 
   
