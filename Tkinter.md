@@ -228,7 +228,7 @@ Demo()
         ```
      - Challenge 
        - add some new inputs in
-       - Finish the display view
+       - Finish the displayResults Method
     
 Next week
 Mysql and data storage with Python
