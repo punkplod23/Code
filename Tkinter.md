@@ -27,9 +27,6 @@ from tkinter import messagebox
 ```python
 import tkinter as tk
 from tkinter import *
-from tkinter import ttk
-from tkinter import messagebox
-
 
 # Create class with constructer method
 class Demo(Frame):
@@ -63,9 +60,6 @@ Demo()
 ```python
 import tkinter as tk
 from tkinter import *
-from tkinter import ttk
-from tkinter import messagebox
-
 
 # Create class with constructer method
 class Demo(Frame):
@@ -94,9 +88,6 @@ Demo()
 import io
 import tkinter as tk
 from tkinter import *
-from tkinter import ttk
-from tkinter import messagebox
-
 
 # Create class with constructer method
 class Demo(Frame):
@@ -157,11 +148,6 @@ class Demo(Frame):
         self.i_like_label = Label(self, text="I Like").grid(row=2,sticky='we')
         self.i_like_input = StringVar()
         Entry(self, textvariable=self.i_like_input).grid(row=2, column=1,sticky='we')
-
-        # Quote I Like
-        self.quote_i_like_label = Label(self, text="Quote I Like").grid(row=3,sticky='we')
-        self.quote_i_like_input = StringVar()
-        Entry(self, textvariable=self.quote_i_like_input).grid(row=3, column=1,sticky='we')
 
         #Dynamically create address Feilds
         row = self.createAddressFeilds(4)
